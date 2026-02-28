@@ -26,7 +26,7 @@ const Layout = () => {
             <div className="logo-icon-wrapper">
               <Rocket className="logo-icon" size={28} />
             </div>
-            <span className="logo-text">Uriya's <span className="highlight-text">Gallery</span></span>
+            <span className="logo-text">הגלריה של <span className="highlight-text">אוריה</span></span>
           </NavLink>
 
           {/* Mobile approach */}
@@ -39,19 +39,19 @@ const Layout = () => {
               <li>
                 <NavLink to="/" className={({isActive}) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>
                   <Palette size={20} className="nav-icon" />
-                  <span>Gallery</span>
+                  <span>גלריה</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/about" className={({isActive}) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>
                   <Info size={20} className="nav-icon" />
-                  <span>About Uriya</span>
+                  <span>על אוריה</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/contact" className={({isActive}) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>
                   <Mail size={20} className="nav-icon" />
-                  <span>Contact</span>
+                  <span>צור קשר</span>
                 </NavLink>
               </li>
             </ul>
@@ -65,7 +65,7 @@ const Layout = () => {
 
       <footer className="footer">
         <div className="container footer-content">
-          <p>© {new Date().getFullYear()} Uriya's Creations. Built with 💙 and 💛.</p>
+          <p>© {new Date().getFullYear()} היצירות של אוריה. נבנה באהבה 💙 ו-💛.</p>
         </div>
       </footer>
     </div>

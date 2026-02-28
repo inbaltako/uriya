@@ -4,20 +4,20 @@ import './Gallery.css';
 import { Sparkles } from 'lucide-react';
 
 const mockCreations = [
-  { id: 1, title: 'Blue Football', description: 'A custom painted mini football in blue and yellow.', price: 15 },
-  { id: 2, title: 'Wooden Sword', description: 'Handcrafted wooden sword for epic backyard battles.', price: 25 },
-  { id: 3, title: 'Lego Stand', description: 'A neat stand to display your favorite Lego minifigures.', price: 10 },
-  { id: 4, title: 'Painted Rock Mascot', description: 'A cute rock painted to look like a little monster.', price: 5 },
-  { id: 5, title: 'Popsicle Stick Fort', description: 'A detailed mini fort made out of ice cream sticks.', price: 20 },
-  { id: 6, title: 'Origami Dragon', description: 'Blue and yellow folded paper dragon.', price: 8 },
+  { id: 1, title: 'כדורגל כחול', description: 'כדורגל קטן צבוע בכחול וצהוב יפהייפה.', price: 15 },
+  { id: 2, title: 'חרב עץ', description: 'חרב עץ בעבודת יד לקרבות הירואים בחצר.', price: 25 },
+  { id: 3, title: 'מעמד ללגו', description: 'מעמד נוח ומגניב להציג בו את דמויות הלגו שלך.', price: 10 },
+  { id: 4, title: 'בובת אבן מאוירת', description: 'אבן מתוקה צבועה כמו מפלצת קטנה.', price: 5 },
+  { id: 5, title: 'מבצר ממקלות ארטיק', description: 'מבצר קטן ומפורט שעשוי ממקלות קרטיב.', price: 20 },
+  { id: 6, title: 'דרקון אוריגמי', description: 'דרקון מנייר כחול וצהוב.', price: 8 },
 ];
 
 const Gallery = () => {
   return (
     <div className="gallery-page">
       <div className="gallery-header">
-        <h1>Welcome to my Gallery! <Sparkles className="highlight-text" size={32} /></h1>
-        <p className="subtitle">Check out all the cool things I've built. Everything is made with love (and lots of glue).</p>
+        <h1>ברוכים הבאים לגלריה שלי! <Sparkles className="highlight-text" size={32} /></h1>
+        <p className="subtitle">תראו איזה דברים מגניבים בניתי. הכל מיוצר באהבה (והמון דבק עיצוב).</p>
       </div>
 
       <div className="gallery-grid">

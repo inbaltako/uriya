@@ -44,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(-10deg);
+  transform: rotate(10deg);
   transition: transform var(--transition-fast);
   box-shadow: var(--shadow-sm);
 }
@@ -136,12 +136,12 @@
     background-color: var(--color-surface);
     box-shadow: var(--shadow-md);
     padding: 1rem;
-    clip-path: circle(0% at top right);
+    clip-path: circle(0% at top left);
     transition: clip-path 0.4s ease-in-out;
   }
 
   .nav-open {
-    clip-path: circle(150% at top right);
+    clip-path: circle(150% at top left);
   }
 
   .nav-list {

@@ -11,8 +11,8 @@ const Card = ({ title, description, price }) => {
         <h3 className="card-title">{title}</h3>
         <p className="card-description">{description}</p>
         <div className="card-footer">
-          <span className="card-price">${price}</span>
-          <button className="btn btn-primary btn-sm">Buy Now</button>
+          <span className="card-price">₪{price}</span>
+          <button className="btn btn-primary btn-sm">קנה עכשיו</button>
         </div>
       </div>
     </div>
