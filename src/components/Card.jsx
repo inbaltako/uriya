@@ -1,11 +1,15 @@
 import React from 'react';
 import './Card.css';
 
-const Card = ({ title, description, price }) => {
+const Card = ({ title, description, price, image }) => {
   return (
     <div className="card">
       <div className="card-image-placeholder">
-        <span className="card-image-icon">🎨</span>
+        {image ? (
+          <img src={image} alt={title} className="card-image" />
+        ) : (
+          <span className="card-image-icon">🎨</span>
+        )}
       </div>
       <div className="card-content">
         <h3 className="card-title">{title}</h3>
